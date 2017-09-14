@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/asus/flo/proprietary/lib/sensors.flo.so:system/lib/sensors.flo.so \
     vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/asus/flo/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
