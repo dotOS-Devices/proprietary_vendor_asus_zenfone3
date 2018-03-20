@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/asus/zenfone3/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
+    vendor/asus/zenfone3/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/asus/zenfone3/proprietary/etc/rndisdiag.sh:system/etc/rndisdiag.sh \
@@ -1160,6 +1161,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/asus/zenfone3/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/zenfone3/proprietary/framework/com.asus.fm.jar:system/framework/com.asus.fm.jar \
+    vendor/asus/zenfone3/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
