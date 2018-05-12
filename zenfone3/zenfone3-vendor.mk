@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
     vendor/asus/zenfone3/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/asus/zenfone3/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
@@ -1468,9 +1469,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/liboptizoom.so:/system/vendor/lib64/liboptizoom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_detected_face_hal.so:system/vendor/lib64/libts_detected_face_hal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_face_beautify_hal.so:system/vendor/lib64/libts_face_beautify_hal.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libubifocus.so:system/vendor/lib64/libubifocus.so \
     vendor/asus/zenfone3/proprietary/vendor/xbin/netlog.sh:system/vendor/xbin/netlog.sh
 
 ifeq ($(QCPATH),)
