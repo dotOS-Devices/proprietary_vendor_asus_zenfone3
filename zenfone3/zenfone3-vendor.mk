@@ -68,6 +68,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     vendor/asus/zenfone3/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so \
     vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor.so:system/lib/libscveBlobDescriptor.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_skel.so:system/lib/libscveBlobDescriptor_skel.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_stub.so:system/lib/libscveBlobDescriptor_stub.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveCommon.so:system/lib/libscveCommon.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveCommon_stub.so:system/lib/libscveCommon_stub.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveImageCorrection.so:system/lib/libscveImageCorrection.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveObjectSegmentation.so:system/lib/libscveObjectSegmentation.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveObjectTracker.so:system/lib/libscveObjectTracker.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveObjectTracker_stub.so:system/lib/libscveObjectTracker_stub.so \
+    vendor/asus/zenfone3/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
+    vendor/asus/zenfone3/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
+    vendor/asus/zenfone3/proprietary/lib/libscveT2T_skel.so:system/lib/libscveT2T_skel.so \
     vendor/asus/zenfone3/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
     vendor/asus/zenfone3/proprietary/lib64/libGVoucher.so:system/lib64/libGVoucher.so \
     vendor/asus/zenfone3/proprietary/lib64/libcctapi.so:system/lib64/libcctapi.so \
@@ -86,6 +98,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
     vendor/asus/zenfone3/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
     vendor/asus/zenfone3/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveBlobDescriptor.so:system/lib64/libscveBlobDescriptor.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveBlobDescriptor_stub.so:system/lib64/libscveBlobDescriptor_stub.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveCommon.so:system/lib64/libscveCommon.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveCommon_stub.so:system/lib64/libscveCommon_stub.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveImageCorrection.so:system/lib64/libscveImageCorrection.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveObjectSegmentation.so:system/lib64/libscveObjectSegmentation.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker.so:system/lib64/libscveObjectTracker.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker_stub.so:system/lib64/libscveObjectTracker_stub.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
+    vendor/asus/zenfone3/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
     vendor/asus/zenfone3/proprietary/vendor/bin/BackupCalibrationData:system/vendor/bin/BackupCalibrationData \
     vendor/asus/zenfone3/proprietary/vendor/bin/CameraModule:system/vendor/bin/CameraModule \
     vendor/asus/zenfone3/proprietary/vendor/bin/CameraOTP:system/vendor/bin/CameraOTP \
