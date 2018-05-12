@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
     vendor/asus/zenfone3/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
     vendor/asus/zenfone3/proprietary/lib/libscveT2T_skel.so:system/lib/libscveT2T_skel.so \
+    vendor/asus/zenfone3/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
     vendor/asus/zenfone3/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
@@ -111,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker_stub.so:system/lib64/libscveObjectTracker_stub.so \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
+    vendor/asus/zenfone3/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
