@@ -1423,6 +1423,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmms_gyro_vstab.so:system/vendor/lib/libmms_gyro_vstab.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libmms_gyro_vstab_auth.so:system/vendor/lib/libmms_gyro_vstab_auth.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
