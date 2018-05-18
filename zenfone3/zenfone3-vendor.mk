@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
     vendor/asus/zenfone3/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     vendor/asus/zenfone3/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so \
-    vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor.so:system/lib/libscveBlobDescriptor.so \
     vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_skel.so:system/lib/libscveBlobDescriptor_skel.so \
     vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_stub.so:system/lib/libscveBlobDescriptor_stub.so \
@@ -80,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
     vendor/asus/zenfone3/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
     vendor/asus/zenfone3/proprietary/lib/libscveT2T_skel.so:system/lib/libscveT2T_skel.so \
+    vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
     vendor/asus/zenfone3/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
@@ -112,8 +112,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker_stub.so:system/lib64/libscveObjectTracker_stub.so \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
     vendor/asus/zenfone3/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
-    vendor/asus/zenfone3/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/asus/zenfone3/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
@@ -253,7 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
@@ -660,7 +660,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/liboptizoom.so:/system/vendor/lib64/liboptizoom.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_detected_face_hal.so:system/vendor/lib64/libts_detected_face_hal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_face_beautify_hal.so:system/vendor/lib64/libts_face_beautify_hal.so \
