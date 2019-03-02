@@ -594,7 +594,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/zenfone3/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/asus/zenfone3/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/asus/zenfone3/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/asus/zenfone3/proprietary/vendor/bin/sensors.qti:system/vendor/bin/sensors.qti \
     vendor/asus/zenfone3/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/asus/zenfone3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
